@@ -5,6 +5,7 @@
   "type": "module",
   "main": "src/js/index.js",
   "scripts": {
+    "lint": "eslint src/**/*.js",
     "format": "prettier -w src/**/*.js",
     "build": "sass src/scss:dist/css",
     "start": "sass --watch src/scss:dist/css & live-server"
