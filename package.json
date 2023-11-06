@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "description": "social media test",
   "type": "module",
-  "main": "src/index.js",
+  "main": "src/js/index.js",
   "scripts": {
+    "format": "prettier -w src/**/*.js",
     "build": "sass src/scss:dist/css",
     "start": "sass --watch src/scss:dist/css & live-server"
   },
@@ -15,6 +16,7 @@
   "license": "ISC",
   "devDependencies": {
     "live-server": "^1.2.2",
+    "prettier": "^3.0.3",
     "sass": "^1.54.8"
   },
   "dependencies": {
