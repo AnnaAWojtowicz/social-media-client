@@ -1,6 +1,6 @@
 {
   "name": "css-frameworks-ca",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "social media test",
   "type": "module",
   "main": "src/index.js",
@@ -8,7 +8,9 @@
     "build": "sass src/scss:dist/css",
     "start": "sass --watch src/scss:dist/css & live-server"
   },
-  "keywords": ["social media"],
+  "keywords": [
+    "social media"
+  ],
   "author": "Noroff & AAWojtowicz",
   "license": "ISC",
   "devDependencies": {
