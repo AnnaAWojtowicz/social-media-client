@@ -20,6 +20,8 @@
   "author": "Noroff & AAWojtowicz",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
     "eslint": "^8.53.0",
     "eslint-plugin-jest": "^27.6.0",
     "husky": "^8.0.3",
