@@ -2,7 +2,9 @@ name: Automated Unit Testing
 on:
   pull_request:
   workflow_dispatch:
-
+    inputs: 
+      branch: 
+        default: 'test-framework'
 jobs:
   run-unit-tests:
     name: Run Unit Tests
