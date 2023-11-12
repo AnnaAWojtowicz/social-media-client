@@ -7,9 +7,10 @@
   "scripts": {
     "test": "npm run test-unit",
     "test-unit": "jest",
-    "test-cypress": "npm run test-e2e",
-    "localhost-cypress": "start-server-and-test start http://127.0.0.1:8080 test-cypress",
+    "test-cypress": "npm run test-e2e-cli",
     "test-e2e": "cypress open",
+    "test-e2e-cli": "cypress run",
+    "localhost-cypress": "start-server-and-test start http://127.0.0.1:8080 test-cypress",
     "lint": "eslint src/**/*.js",
     "lint-fix": "eslint src/**/*.js --cache --fix",
     "format": "prettier -w src/**/*.js",
