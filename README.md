@@ -42,3 +42,5 @@ For more details go to: https://chat.google.com/dm/vCg28wAAAAE/8ScoLWGm_hQ/8ScoL
 
 Cypress-cli tests in GitHub Actions are running against this project's GitHub Pages. This simplification was required due to complexity that is necessary to customize GitHub Actions to boot a temporary webserver for the purpose of running those tests.
 Optionally it would be wise to deploy the code to GitHub Pages before running tests against those GitHub Pages. However, it seems that there is no functionality that inables to prioritize the deplyment action in front of the e2e test action.
+
+### Other
