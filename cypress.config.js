@@ -3,7 +3,7 @@ import { defineConfig } from 'cypress';
 export default defineConfig({
   e2e: {
     env: {
-      baseUrl: 'https://annaawojtowicz.github.io/social-media-client/',
+      baseUrl: '/',
       loginUser: 'test1234@stud.noroff.no',
       loginPassword: 'test1234',
     },
